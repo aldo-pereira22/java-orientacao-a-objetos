@@ -23,7 +23,7 @@ public class Program {
 		System.out.printf("Circuference: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
 		
-		System.out.printf("PI Value: %.2f%n", PI);
+		System.out.printf("PI Value: %.2f%n", Calculator.PI);
 		
 		sc.close();
 	}
