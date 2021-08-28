@@ -48,7 +48,9 @@ public class Program {
 		
 		System.out.println("---------------------------------------------------------------");
 		
-		List<String> result = list.stream().filter( x-> x.charAt(0) == 'A').collect(Collectors.toList());
+		List<String> result = list.stream()
+				.filter( x-> x.charAt(0) == 'A')
+				.collect(Collectors.toList());
 		
 		
 		for(String x : result) {
