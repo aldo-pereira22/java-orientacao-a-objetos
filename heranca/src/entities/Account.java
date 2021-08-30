@@ -4,7 +4,7 @@ public class Account {
 
 	private Integer number;
 	private String holder;
-	private Double balance;
+	protected Double balance;
 	
 	public Account() {
 		// TODO Auto-generated constructor stub
@@ -37,7 +37,13 @@ public class Account {
 		return balance;
 	}
 
-
+	public void withdraw(double amount) {
+		balance -= amount;
+	}
+	
+	public void deposit(double amount) {
+		balance += amount;
+	}
 
 
 	
