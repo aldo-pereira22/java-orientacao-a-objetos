@@ -52,6 +52,7 @@ public class Program {
 			System.out.println(emp.getName()+" - $ " + String.format("%.2f", emp.payment() ) );
 		}
 		
+		sc.close();
 	}
 }
 
