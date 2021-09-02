@@ -100,7 +100,7 @@ public class Prgram {
 		System.out.println("Get Path: "+ path.getPath());
 		
 		
-		
+		sc.close();
 	}
 }
 
